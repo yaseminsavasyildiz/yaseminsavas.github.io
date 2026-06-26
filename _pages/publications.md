@@ -19,7 +19,7 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        ## {{ category[1].title }}
+        <h2>{{ category[1].title }}</h2>}
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}

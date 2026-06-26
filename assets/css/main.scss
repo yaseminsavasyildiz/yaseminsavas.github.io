@@ -38,6 +38,7 @@
     "layout/json_cv"
    
 ;
-.archive__item-title {
+.archive__item-title:hover {
   text-decoration: none !important;
+  cursor: default;
 }

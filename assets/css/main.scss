@@ -46,3 +46,7 @@ h2.archive__item-title:hover {
   text-decoration: none !important;
   cursor: default;
 }
+
+.archive__item:hover .archive__item-title {
+  text-decoration: none !important;
+}
